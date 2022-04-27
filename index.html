@@ -67,6 +67,9 @@
 
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">	  
 
+      <!-- <link rel="stylesheet" href="js/splide-4.0.1/dist/css/splide.min.css"> -->
+      <link rel="stylesheet" href="css/splide.min.css">
+
    </head>
 
    <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -93,7 +96,7 @@
 
             <div class="navbar-header">
 
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered" style="visibility: hidden">
 
                <i class="fa fa-bars"></i>
 
@@ -149,8 +152,6 @@
 
 	  
 
-      <!-- Section Blog -->
-      <!-- Section: RSVP  -->
 
       <section id="rsvp">
 
@@ -180,48 +181,51 @@
 
          <div class="container">
 
-            <!-- /section-heading -->
-
             <div class="row">
                <div class="col-lg-12">
+                  <section class="splide" aria-label="Carousel">
+                     <div class="splide__track">
+                         <ul class="splide__list">
 
-                  <!-- image -->
-   
-                  <img src="img/login.jpg" alt="" class="margin1 img-photo rotate2 img-responsive" style="width: 63%;">
-   
+                            <li class="splide__slide text-center">
+                               <img src="img/login.jpg" alt="" class="img-photo img-responsive center-block">
+                               
+                               <div class="">
+                                 <h4 class="text-ornament">2020</h4>
+                              </div>
+                           </li>  
+
+                           <li class="splide__slide text-center">
+                              <img src="img/login.jpg" alt="" class="img-photo img-responsive center-block">
+                              
+                              <div class="">
+                                <h4 class="text-ornament">2020</h4>
+                             </div>
+                          </li> 
+
+                          <li class="splide__slide text-center">
+                           <img src="img/login.jpg" alt="" class="img-photo img-responsive center-block">
+                           
+                           <div class="">
+                             <h4 class="text-ornament">2020</h4>
+                          </div>
+                       </li> 
+
+                       <li class="splide__slide text-center">
+                        <img src="img/login.jpg" alt="" class="img-photo img-responsive center-block">
+                        
+                        <div class="">
+                          <h4 class="text-ornament">2020</h4>
+                       </div>
+                    </li> 
+                                
+                         </ul>
+                     </div>
+                   </section>
                </div>
             </div>
 
-            <div class="row">
-               <div class="col-lg-12">
-
-                  <!-- image -->
-   
-                  <img src="img/login.jpg" alt="" class="margin1 img-photo rotate1 img-responsive" style="width: 63%; float: right;">
-   
-               </div>
-            </div>            
-
-            <div class="row">
-               <div class="col-lg-12">
-
-                  <!-- image -->
-   
-                  <img src="img/login.jpg" alt="" class="margin1 img-photo rotate2 img-responsive" style="width: 63%;">
-   
-               </div>
-            </div>
-
-            <div class="row">
-               <div class="col-lg-12">
-
-                  <!-- image -->
-   
-                  <img src="img/login.jpg" alt="" class="margin1 img-photo rotate1 img-responsive" style="width: 63%; float: right;">
-   
-               </div>
-            </div>  
-         </div>
+         
 
          <!-- /container -->
 
@@ -272,11 +276,12 @@
 
       <!-- <script src="js/bootstrap.min.js"></script> -->
 
+      <!-- <script src="js/splide-4.0.1/dist/js/splide.min.js"></script> -->
+      <script src="js/splide.min.js"></script>
+
       <!-- Main Js -->
 
-      <script src="js/main.js"></script>
-
-      <!-- RSVP form -->
+      <script src="js/main.js"></script>      
 
 
 
@@ -287,6 +292,8 @@
       <!-- Prefix free CSS -->
 
       <script src="js/prefixfree.js"></script>
+
+      
 
    </body>
 

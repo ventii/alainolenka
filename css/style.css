@@ -2262,6 +2262,7 @@ input:checked + .side-label:after {
 footer {
 
     padding: 45px 0px;
+    z-index: 999;
 
 }
 
@@ -4615,12 +4616,6 @@ button.list-group-item:hover {
 
     }
 
-    section {
-
-        padding: 40px 0px;
-
-    }
-
     footer p {
 
         line-height: 20px;
@@ -4870,3 +4865,19 @@ button.list-group-item:hover {
     }
 
 }
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* .splide__arrows.splide__arrows--ltr{
+    position: relative;
+   
+} */
+.splide__arrows.splide__arrows--ltr button.splide__arrow {
+    top: 42%;
+}
+

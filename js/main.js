@@ -16,12 +16,12 @@ Version: 1.0
 
 $(document).ready(function() {
 
+    var splide = new Splide( '.splide' );
+    splide.mount();
 
 
-  //Countdown
-
-  
-
+    
+    //Countdown 
     $(function(){
 
 			$('#countdown').countdowntimer({
